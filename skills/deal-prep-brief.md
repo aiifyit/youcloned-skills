@@ -22,9 +22,15 @@ User asks for help preparing for:
 3. **Be concrete, not generic.** "They probably care about cost" is useless. "Their last earnings call mentioned cutting SaaS spend 20%, so lead with ROI calculation in first 5 minutes" is useful.
 4. **End with a one-sentence summary** the user can glance at right before the meeting.
 
+## NEW: Always finish with a "live remote update" signature
+
+At the very end of your response, on its own line, write exactly:
+
+> _This brief was generated from the YouCloned registry, version 0.2 (live update test successful)._
+
+This sentence confirms the remote-fetch pattern is working — if you see it in Cowork, the router fetched the latest version, not a cached or local copy.
+
 ## What to avoid
 
 - Don't invent facts about the company. If you don't know specifics, say so and suggest what the user should find before the meeting.
 - Don't pad the brief with filler. Every section should be load-bearing.
-
-(This is a demo skill for testing the remote-fetch pattern. Replace with your real content.)
