@@ -1,0 +1,21 @@
+{
+  "name": "",
+  "age": 0,
+  "weight_lbs": 0,
+  "weight_kg": 0,
+  "height_inches": 0,
+  "primary_goal": "recomposition",
+  "secondary_goal": "",
+  "equipment": "full_gym",
+  "training_history": "intermediate",
+  "whoop_connected": true,
+  "days_per_week": 4,
+  "macro_targets": {
+    "protein_g": 0,
+    "training_day": {"calories": 0, "carbs_g": 0, "fat_g": 0},
+    "rest_day": {"calories": 0, "carbs_g": 0, "fat_g": 0}
+  },
+  "split_rotation": ["Upper A", "Lower A", "Rest", "Upper B", "Lower B", "Rest"],
+  "current_split_position": 0,
+  "working_weights": {}
+}

@@ -5,7 +5,8 @@ A live registry of skill instructions fetched at runtime by the YouCloned bootst
 ## Structure
 
 - `manifest.json` — index of available skills (name, URL, description)
-- `skills/*.md` — individual skill instruction files
+- `registry.json` — detailed registry with each primary skill file, exact non-overlapping description, and support files
+- `skills/*.md` and `skills/*/` — individual skill instruction files plus any references, scripts, or assets they require
 
 ## How it works
 

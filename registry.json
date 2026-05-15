@@ -1,0 +1,354 @@
+{
+  "registry_name": "YouCloned Skills Registry",
+  "registry_version": "1.0.0",
+  "source": "Google Drive folder 1M9PWGgCSQIXX0UJGzatr3EcdBk9t5DTP imported 2026-05-15 plus existing repository skills",
+  "notes": [
+    "Descriptions are intentionally non-overlapping: each entry states the primary job and boundary for that skill.",
+    "The Drive file what-model/WHAT MODEL SKILL.md could not be downloaded because Google Drive did not expose a public direct link during import."
+  ],
+  "skills": [
+    {
+      "name": "ca-cannabis-compliance",
+      "primary_file": "skills/ca-cannabis-compliance.md",
+      "description": "California cannabis manufacturing compliance guidance for DCC rules, COA audits, lab testing, manufacturing license scopes, METRC issues, and regulatory watchlists.",
+      "support_files": []
+    },
+    {
+      "name": "deal-prep-brief",
+      "primary_file": "skills/deal-prep-brief.md",
+      "description": "B2B sales meeting preparation that creates account snapshots, attendee priorities, likely objections, concrete talking points, meeting asks, and risk flags.",
+      "support_files": []
+    },
+    {
+      "name": "commit-operation-manager",
+      "primary_file": "skills/COM/COM SKILL.md",
+      "description": "Git commit-and-push workflow that scans changed files for credentials, stages intentional files, writes a concise commit, pushes, and confirms branch state.",
+      "support_files": []
+    },
+    {
+      "name": "ad-launcher",
+      "primary_file": "skills/ad-launcher/paid-ad-campaign-manager.md",
+      "description": "Paid advertising campaign management for Meta, Google, and YouTube, covering strategy, creative briefs, budgets, campaign structure, monitoring, and optimization.",
+      "support_files": []
+    },
+    {
+      "name": "affiliate-manager",
+      "primary_file": "skills/affiliate-manager/affiliate-referral-program.md",
+      "description": "Affiliate and referral program operations, including program setup, partner recruitment, swipe file creation, commission tracking, payouts, and affiliate communication.",
+      "support_files": []
+    },
+    {
+      "name": "agent-cost-monitor",
+      "primary_file": "skills/agent-cost-monitor/token-usage-cost-tracker.md",
+      "description": "Token usage and agent cost monitoring across OpenClaw agents, including spend reports, budget alerts, model-tier recommendations, and optimization playbooks.",
+      "support_files": [
+        "skills/agent-cost-monitor/.clawhub/origin.json",
+        "skills/agent-cost-monitor/_meta.json"
+      ]
+    },
+    {
+      "name": "analytics-reporter",
+      "primary_file": "skills/analytics-reporter/business-performance-reporter.md",
+      "description": "Business performance reporting for revenue, KPIs, dashboards, conversion rates, anomalies, and health reviews; reports what happened rather than designing tests.",
+      "support_files": []
+    },
+    {
+      "name": "api-vault",
+      "primary_file": "skills/api-vault/api-key-credential-vault.md",
+      "description": "Credential safety workflow for detecting API keys, passwords, and tokens in chat or files, moving them into a vault, and replacing literals with environment references.",
+      "support_files": []
+    },
+    {
+      "name": "autoagent",
+      "primary_file": "skills/autoagent/self-optimizing-agent-builder.md",
+      "description": "AutoAgent harness creation and improvement for building self-optimizing agents, benchmark loops, vertical business agents, and overnight optimization runs.",
+      "support_files": [
+        "skills/autoagent/references/claude-adapter.md",
+        "skills/autoagent/references/program-examples.md",
+        "skills/autoagent/references/task-format.md"
+      ]
+    },
+    {
+      "name": "bookkeeping",
+      "primary_file": "skills/bookkeeping/financial-recordkeeping.md",
+      "description": "Financial recordkeeping for revenue, expenses, invoices, cash flow, tax prep, and accounting hygiene; focused on numbers rather than strategy or pricing.",
+      "support_files": []
+    },
+    {
+      "name": "calendar-manager",
+      "primary_file": "skills/calendar-manager/calendar-event-scheduler.md",
+      "description": "Calendar operations for viewing schedules, booking meetings, blocking focus time, managing availability, and triggering meeting follow-up actions.",
+      "support_files": []
+    },
+    {
+      "name": "content-delivery",
+      "primary_file": "skills/content-delivery/course-membership-platform.md",
+      "description": "Course and membership product operations, including content structure, module access, drip schedules, downloads, student management, engagement, and updates.",
+      "support_files": []
+    },
+    {
+      "name": "content-repurposer",
+      "primary_file": "skills/content-repurposer/longform-content-splitter.md",
+      "description": "Repurposes one long-form source into derivative assets such as clips, posts, newsletters, and evergreen materials without scheduling or publishing them.",
+      "support_files": []
+    },
+    {
+      "name": "copywriting",
+      "primary_file": "skills/copywriting/persuasive-sales-copywriter.md",
+      "description": "Persuasive conversion copywriting for headlines, hooks, sales pages, VSLs, CTAs, and sales text; writes words only, not page builds or automation.",
+      "support_files": []
+    },
+    {
+      "name": "course-crawler",
+      "primary_file": "skills/course-crawler/COURSE CRAWLER SKILL.md",
+      "description": "Course extraction and evaluation workflow that logs into course platforms, downloads materials, transcribes videos, summarizes modules, and judges whether the course is worth the user's time.",
+      "support_files": []
+    },
+    {
+      "name": "customer-onboarding",
+      "primary_file": "skills/customer-onboarding/post-purchase-activation.md",
+      "description": "Post-purchase activation design for welcome flows, first-win steps, product-type onboarding sequences, activation metrics, and early customer success.",
+      "support_files": []
+    },
+    {
+      "name": "customer-support",
+      "primary_file": "skills/customer-support/customer-service-responder.md",
+      "description": "Reactive customer service for inquiries, refunds, cancellations, help documentation, and customer problem resolution after an issue is raised.",
+      "support_files": []
+    },
+    {
+      "name": "daily-briefing",
+      "primary_file": "skills/daily-briefing/daily-status-summary.md",
+      "description": "Daily status summaries that gather what happened, what is coming up, and what needs attention at day start, day end, or on general status requests.",
+      "support_files": []
+    },
+    {
+      "name": "doc-processor",
+      "primary_file": "skills/doc-processor/document-inbox-processor.md",
+      "description": "Document inbox processing for PDFs, receipts, contracts, and other dropped files, extracting key information, filing outputs, and flagging action items.",
+      "support_files": []
+    },
+    {
+      "name": "done",
+      "primary_file": "skills/done/DONE SKILL.md",
+      "description": "Current-tab end-of-session checkpoint that summarizes work completed, creates a receipts table, estimates saved time or value, and logs the session result.",
+      "support_files": []
+    },
+    {
+      "name": "done-day",
+      "primary_file": "skills/done-day/DONE DAY SKILL.md",
+      "description": "End-of-day roll-up that aggregates today's /done logs across tabs into one combined report with totals, value estimates, and cross-session summary.",
+      "support_files": []
+    },
+    {
+      "name": "email-campaign",
+      "primary_file": "skills/email-campaign/email-marketing-automation.md",
+      "description": "Email marketing infrastructure for sequences, automations, broadcasts, list management, segmentation, and campaign architecture; excludes writing the copy itself.",
+      "support_files": []
+    },
+    {
+      "name": "error-recovery-automation",
+      "primary_file": "skills/error-recovery-automation/error-recovery-handler.md",
+      "description": "Automated recovery procedures for known OpenClaw failures such as gateway restarts, browser service outages, cron failures, and repeat operational errors.",
+      "support_files": [
+        "skills/error-recovery-automation/.clawhub/origin.json",
+        "skills/error-recovery-automation/_meta.json"
+      ]
+    },
+    {
+      "name": "fitness-coach",
+      "primary_file": "skills/fitness-coach/fitness-tracking-coach.md",
+      "description": "Personal fitness coaching for Joshua using WHOOP recovery, workout programming, macro logging, gym flows, scheduled check-ins, and training recommendations.",
+      "support_files": [
+        "skills/fitness-coach/assets/training-log-template.json",
+        "skills/fitness-coach/assets/user-profile-template.json",
+        "skills/fitness-coach/references/macro-guide.md",
+        "skills/fitness-coach/references/whoop-decision-tree.md",
+        "skills/fitness-coach/references/whoop-protocol.md",
+        "skills/fitness-coach/references/workout-splits.md",
+        "skills/fitness-coach/scripts/interview.py",
+        "skills/fitness-coach/scripts/log_meal.py",
+        "skills/fitness-coach/scripts/log_workout.py",
+        "skills/fitness-coach/scripts/research_goals.py",
+        "skills/fitness-coach/scripts/setup_crons.py",
+        "skills/fitness-coach/scripts/setup_whoop.py",
+        "skills/fitness-coach/scripts/whoop_check.py"
+      ]
+    },
+    {
+      "name": "funnel-architect",
+      "primary_file": "skills/funnel-architect/conversion-funnel-designer.md",
+      "description": "Conversion funnel structure design that maps lead-to-customer flows, upsells, downsells, order bumps, and funnel templates without writing copy or building pages.",
+      "support_files": []
+    },
+    {
+      "name": "hermes-agent",
+      "primary_file": "skills/hermes-agent/hermes-task-delegator.md",
+      "description": "Delegation to Hermes Agent for long-running autonomous tasks, browser work, cron management, sandboxed execution, and multi-platform task handling.",
+      "support_files": []
+    },
+    {
+      "name": "jon-benson-voice-hacks",
+      "primary_file": "skills/jon-benson-voice-hacks/VOICE HACKS SKILL.md",
+      "description": "ElevenLabs voice-production method for converting scripts into natural speech using text, phonetic, and tagged script variants plus audio tag and pronunciation rules.",
+      "support_files": []
+    },
+    {
+      "name": "launch-coordinator",
+      "primary_file": "skills/launch-coordinator/product-launch-coordinator.md",
+      "description": "Time-bound product launch coordination across email, social, ads, affiliates, content, daily dashboards, launch timelines, and post-launch analysis.",
+      "support_files": []
+    },
+    {
+      "name": "lead-magnet-creator",
+      "primary_file": "skills/lead-magnet-creator/lead-magnet-builder.md",
+      "description": "Lead magnet creation for free opt-in assets such as PDFs, checklists, templates, mini-courses, and other email-capture offers.",
+      "support_files": []
+    },
+    {
+      "name": "legal-doc-generator",
+      "primary_file": "skills/legal-doc-generator/legal-document-generator.md",
+      "description": "Drafting standard business legal document templates such as terms, privacy policies, NDAs, contractor agreements, disclaimers, refunds, and affiliate agreements.",
+      "support_files": []
+    },
+    {
+      "name": "meeting-prep",
+      "primary_file": "skills/meeting-prep/meeting-prep-briefer.md",
+      "description": "Pre-meeting briefs for calendar events, attendee context, research, talking points, files, scheduled brief generation, and Telegram delivery workflows.",
+      "support_files": []
+    },
+    {
+      "name": "n8n-workflow-builder",
+      "primary_file": "skills/n8n-workflow-builder/n8n-automation-builder.md",
+      "description": "n8n automation work for building, modifying, validating, and deploying workflows, nodes, credentials, triggers, and execution logic.",
+      "support_files": []
+    },
+    {
+      "name": "offer-architect",
+      "primary_file": "skills/offer-architect/offer-pricing-designer.md",
+      "description": "Offer and pricing design for product creation, offer stacks, positioning, differentiation, pricing logic, and market framing before funnel design begins.",
+      "support_files": []
+    },
+    {
+      "name": "page-builder",
+      "primary_file": "skills/page-builder/web-page-builder.md",
+      "description": "Web page building and deployment for sales pages, landing pages, opt-in pages, thank-you pages, page structure, platform setup, and publishing.",
+      "support_files": []
+    },
+    {
+      "name": "personal-crm",
+      "primary_file": "skills/personal-crm/contact-relationship-tracker.md",
+      "description": "Relationship tracking for contacts, interaction history, warmth, follow-up reminders, dormant contacts, and ongoing network management.",
+      "support_files": []
+    },
+    {
+      "name": "project",
+      "primary_file": "skills/project/PROJECT SKILL.md",
+      "description": "Current-tab project tagging for assigning a Claude Code session to an active or new project so /done can attribute session value correctly.",
+      "support_files": []
+    },
+    {
+      "name": "rag-knowledge-manager",
+      "primary_file": "skills/rag-knowledge-manager/rag-knowledge-base-manager.md",
+      "description": "Internal RAG knowledge base management for document ingestion, source inventory, querying, deduplication, updates, deletions, and troubleshooting retrieval quality.",
+      "support_files": []
+    },
+    {
+      "name": "recap",
+      "primary_file": "skills/recap/RECAP SKILL.md",
+      "description": "Full current-session recap that reads raw transcript history and returns the work's purpose, guiding principle, phase summaries, learned context, and next steps.",
+      "support_files": []
+    },
+    {
+      "name": "recap-all",
+      "primary_file": "skills/recap-all/RECAP ALL SKILL.md",
+      "description": "Cross-tab recap that finds recently active Claude Code sessions and summarizes each tab's purpose, learned context, status, and next action.",
+      "support_files": []
+    },
+    {
+      "name": "research-search",
+      "primary_file": "skills/research-search/web-research-searcher.md",
+      "description": "Real-time web research for current events, recent news, live data, source synthesis, and optional academic search coordination.",
+      "support_files": []
+    },
+    {
+      "name": "sales-conversion",
+      "primary_file": "skills/sales-conversion/sales-close-optimizer.md",
+      "description": "Sales mechanics optimization for lead nurture, booking sequences, objection handling, checkout flow, cart abandonment, upsells, and close-related metrics.",
+      "support_files": []
+    },
+    {
+      "name": "security-scanner",
+      "primary_file": "skills/security-scanner/pre-install-security-gate.md",
+      "description": "Pre-install security gate for external packages, scripts, clones, and downloads, including source verification, code inspection, risk ratings, and override protocol.",
+      "support_files": []
+    },
+    {
+      "name": "skill-router",
+      "primary_file": "skills/skill-router/multi-skill-coordinator.md",
+      "description": "Routing hub for ambiguous or multi-domain requests, selecting the right single skill or coordinating several skills without replacing their specialized work.",
+      "support_files": []
+    },
+    {
+      "name": "social-media-manager",
+      "primary_file": "skills/social-media-manager/social-post-scheduler.md",
+      "description": "Platform-native social content planning, post creation, content calendars, and scheduling distribution after assets or ideas already exist.",
+      "support_files": []
+    },
+    {
+      "name": "solopreneur-onboarding",
+      "primary_file": "skills/solopreneur-onboarding/first-run-onboarding.md",
+      "description": "First-run onboarding for a missing user profile, collecting business context, preferences, operating style, and setup details before other skills run.",
+      "support_files": []
+    },
+    {
+      "name": "sop-builder",
+      "primary_file": "skills/sop-builder/process-documentation-builder.md",
+      "description": "Process documentation for SOPs, VA instructions, and workflow guides that explain repeatable work so others can execute it consistently.",
+      "support_files": []
+    },
+    {
+      "name": "split-test-manager",
+      "primary_file": "skills/split-test-manager/ab-test-manager.md",
+      "description": "A/B test setup and analysis for pages, emails, ads, prices, and offers, including variants, measurement, and decisions from test data.",
+      "support_files": []
+    },
+    {
+      "name": "strategist",
+      "primary_file": "skills/strategist/historical-wisdom-strategist.md",
+      "description": "Strategic decision support from a historical and philosophical book corpus, aimed at business philosophy, leadership, and cross-era pattern recognition.",
+      "support_files": [
+        "skills/strategist/scripts/query.py"
+      ]
+    },
+    {
+      "name": "task-manager",
+      "primary_file": "skills/task-manager/task-todo-tracker.md",
+      "description": "Task and project work-item tracking for creating, prioritizing, assigning, and monitoring to-dos outside calendar-specific time blocks.",
+      "support_files": []
+    },
+    {
+      "name": "vapi-caller",
+      "primary_file": "skills/vapi-caller/outbound-phone-caller.md",
+      "description": "Outbound phone calling through Vapi and Twilio, including call execution, transcript processing, call logs, and follow-up action extraction.",
+      "support_files": [
+        "skills/vapi-caller/references/jane-call-protocol.md",
+        "skills/vapi-caller/references/prompts.md",
+        "skills/vapi-caller/scripts/call.py",
+        "skills/vapi-caller/scripts/voicemail.py"
+      ]
+    },
+    {
+      "name": "voice-and-brand",
+      "primary_file": "skills/voice-and-brand/brand-voice-reviewer.md",
+      "description": "Brand voice review and rewriting for existing drafts, aligning tone and style after content is created rather than generating new content from scratch.",
+      "support_files": []
+    },
+    {
+      "name": "wealth-library",
+      "primary_file": "skills/wealth-library/personal-wealth-library.md",
+      "description": "Joshua and Sarah's curated wealth and wisdom library for owned books on investing, real estate, land, business, time, and self-improvement.",
+      "support_files": []
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "date": "YYYY-MM-DD",
+  "meals": [
+    {
+      "meal": "breakfast",
+      "time": "08:00",
+      "description": "",
+      "totals": {"cal": 0, "protein_g": 0, "carbs_g": 0, "fat_g": 0}
+    }
+  ],
+  "supplements": [
+    {"name": "creatine", "dose": "5g", "time": "08:00"},
+    {"name": "vitamin_d3", "dose": "2000IU", "time": "08:00"}
+  ],
+  "daily_totals": {
+    "calories": 0,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 0
+  },
+  "workout": {
+    "split": "Upper A",
+    "whoop_recovery": 0,
+    "whoop_override": null,
+    "exercises": [],
+    "sets": [
+      {
+        "exercise": "Barbell Bench Press",
+        "set": 1,
+        "weight_lbs": 0,
+        "reps": 0,
+        "notes": null
+      }
+    ],
+    "total_volume_sets": 0,
+    "session_duration_min": 0,
+    "strain_post_workout": 0
+  },
+  "whoop": {
+    "recovery_score": 0,
+    "hrv_ms": 0,
+    "rhr": 0,
+    "sleep_hours": 0,
+    "sleep_efficiency_pct": 0,
+    "strain_end_of_day": 0,
+    "cal_burned": 0
+  }
+}
