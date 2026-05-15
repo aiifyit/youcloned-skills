@@ -1,0 +1,16 @@
+{
+  "registry_name": "Moonshot Skills Test Registry",
+  "registry_version": "0.1.0",
+  "skills": [
+    {
+      "name": "ca-cannabis-compliance",
+      "url": "skills/ca-cannabis-compliance.md",
+      "description": "California cannabis manufacturing compliance: regulatory tracking, COA audit prep, watchlist generation, BCC/DCC requirement summaries."
+    },
+    {
+      "name": "deal-prep-brief",
+      "url": "skills/deal-prep-brief.md",
+      "description": "Pre-meeting research and outreach drafting for B2B sales: account research, contact mapping, talking points, follow-up email drafting."
+    }
+  ]
+}
