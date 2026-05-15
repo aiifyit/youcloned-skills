@@ -1,30 +1,12 @@
 {
   "registry_name": "YouCloned Skills Registry",
-  "registry_version": "1.0.0",
+  "registry_version": "1.0.1",
   "source": "Google Drive folder 1M9PWGgCSQIXX0UJGzatr3EcdBk9t5DTP imported 2026-05-15 plus existing repository skills",
   "notes": [
     "Descriptions are intentionally non-overlapping: each entry states the primary job and boundary for that skill.",
     "The Drive file what-model/WHAT MODEL SKILL.md could not be downloaded because Google Drive did not expose a public direct link during import."
   ],
   "skills": [
-    {
-      "name": "ca-cannabis-compliance",
-      "primary_file": "skills/ca-cannabis-compliance.md",
-      "description": "California cannabis manufacturing compliance guidance for DCC rules, COA audits, lab testing, manufacturing license scopes, METRC issues, and regulatory watchlists.",
-      "support_files": []
-    },
-    {
-      "name": "deal-prep-brief",
-      "primary_file": "skills/deal-prep-brief.md",
-      "description": "B2B sales meeting preparation that creates account snapshots, attendee priorities, likely objections, concrete talking points, meeting asks, and risk flags.",
-      "support_files": []
-    },
-    {
-      "name": "commit-operation-manager",
-      "primary_file": "skills/COM/COM SKILL.md",
-      "description": "Git commit-and-push workflow that scans changed files for credentials, stages intentional files, writes a concise commit, pushes, and confirms branch state.",
-      "support_files": []
-    },
     {
       "name": "ad-launcher",
       "primary_file": "skills/ad-launcher/paid-ad-campaign-manager.md",
@@ -75,9 +57,21 @@
       "support_files": []
     },
     {
+      "name": "ca-cannabis-compliance",
+      "primary_file": "skills/ca-cannabis-compliance.md",
+      "description": "California cannabis manufacturing compliance guidance for DCC rules, COA audits, lab testing, manufacturing license scopes, METRC issues, and regulatory watchlists.",
+      "support_files": []
+    },
+    {
       "name": "calendar-manager",
       "primary_file": "skills/calendar-manager/calendar-event-scheduler.md",
       "description": "Calendar operations for viewing schedules, booking meetings, blocking focus time, managing availability, and triggering meeting follow-up actions.",
+      "support_files": []
+    },
+    {
+      "name": "commit-operation-manager",
+      "primary_file": "skills/COM/COM SKILL.md",
+      "description": "Git commit-and-push workflow that scans changed files for credentials, stages intentional files, writes a concise commit, pushes, and confirms branch state.",
       "support_files": []
     },
     {
@@ -120,6 +114,12 @@
       "name": "daily-briefing",
       "primary_file": "skills/daily-briefing/daily-status-summary.md",
       "description": "Daily status summaries that gather what happened, what is coming up, and what needs attention at day start, day end, or on general status requests.",
+      "support_files": []
+    },
+    {
+      "name": "deal-prep-brief",
+      "primary_file": "skills/deal-prep-brief.md",
+      "description": "B2B sales meeting preparation that creates account snapshots, attendee priorities, likely objections, concrete talking points, meeting asks, and risk flags.",
       "support_files": []
     },
     {
@@ -348,6 +348,12 @@
       "name": "wealth-library",
       "primary_file": "skills/wealth-library/personal-wealth-library.md",
       "description": "Joshua and Sarah's curated wealth and wisdom library for owned books on investing, real estate, land, business, time, and self-improvement.",
+      "support_files": []
+    },
+    {
+      "name": "weekly-focus",
+      "primary_file": "skills/weekly-focus/weekly-business-focus.md",
+      "description": "Weekly business focus diagnostic that asks targeted questions about the business, constraints, metrics, opportunities, and capacity, then chooses one highest-leverage priority for the current week.",
       "support_files": []
     }
   ]

@@ -1,22 +1,7 @@
 {
   "registry_name": "YouCloned Skills Registry",
-  "registry_version": "1.0.0",
+  "registry_version": "1.0.1",
   "skills": [
-    {
-      "name": "ca-cannabis-compliance",
-      "url": "skills/ca-cannabis-compliance.md",
-      "description": "California cannabis manufacturing compliance guidance for DCC rules, COA audits, lab testing, manufacturing license scopes, METRC issues, and regulatory watchlists."
-    },
-    {
-      "name": "deal-prep-brief",
-      "url": "skills/deal-prep-brief.md",
-      "description": "B2B sales meeting preparation that creates account snapshots, attendee priorities, likely objections, concrete talking points, meeting asks, and risk flags."
-    },
-    {
-      "name": "commit-operation-manager",
-      "url": "skills/COM/COM SKILL.md",
-      "description": "Git commit-and-push workflow that scans changed files for credentials, stages intentional files, writes a concise commit, pushes, and confirms branch state."
-    },
     {
       "name": "ad-launcher",
       "url": "skills/ad-launcher/paid-ad-campaign-manager.md",
@@ -53,9 +38,19 @@
       "description": "Financial recordkeeping for revenue, expenses, invoices, cash flow, tax prep, and accounting hygiene; focused on numbers rather than strategy or pricing."
     },
     {
+      "name": "ca-cannabis-compliance",
+      "url": "skills/ca-cannabis-compliance.md",
+      "description": "California cannabis manufacturing compliance guidance for DCC rules, COA audits, lab testing, manufacturing license scopes, METRC issues, and regulatory watchlists."
+    },
+    {
       "name": "calendar-manager",
       "url": "skills/calendar-manager/calendar-event-scheduler.md",
       "description": "Calendar operations for viewing schedules, booking meetings, blocking focus time, managing availability, and triggering meeting follow-up actions."
+    },
+    {
+      "name": "commit-operation-manager",
+      "url": "skills/COM/COM SKILL.md",
+      "description": "Git commit-and-push workflow that scans changed files for credentials, stages intentional files, writes a concise commit, pushes, and confirms branch state."
     },
     {
       "name": "content-delivery",
@@ -91,6 +86,11 @@
       "name": "daily-briefing",
       "url": "skills/daily-briefing/daily-status-summary.md",
       "description": "Daily status summaries that gather what happened, what is coming up, and what needs attention at day start, day end, or on general status requests."
+    },
+    {
+      "name": "deal-prep-brief",
+      "url": "skills/deal-prep-brief.md",
+      "description": "B2B sales meeting preparation that creates account snapshots, attendee priorities, likely objections, concrete talking points, meeting asks, and risk flags."
     },
     {
       "name": "doc-processor",
@@ -261,6 +261,11 @@
       "name": "wealth-library",
       "url": "skills/wealth-library/personal-wealth-library.md",
       "description": "Joshua and Sarah's curated wealth and wisdom library for owned books on investing, real estate, land, business, time, and self-improvement."
+    },
+    {
+      "name": "weekly-focus",
+      "url": "skills/weekly-focus/weekly-business-focus.md",
+      "description": "Weekly business focus diagnostic that asks targeted questions about the business, constraints, metrics, opportunities, and capacity, then chooses one highest-leverage priority for the current week."
     }
   ]
 }
