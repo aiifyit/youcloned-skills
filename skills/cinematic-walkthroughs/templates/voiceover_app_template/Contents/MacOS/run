@@ -1,0 +1,38 @@
+#!/bin/bash
+# Voiceover.app — wraps voiceover.py for one-double-click execution.
+# Edit YC_DIR below to point at your project directory.
+
+set -uo pipefail
+
+# EDIT THIS to your project directory:
+YC_DIR="$HOME/Documents/YourProject"
+
+LOG="/tmp/voiceover-app.log"
+SCRIPT="$YC_DIR/voiceover.py"
+RESULT="$YC_DIR/walkthrough-narrated.mp4"
+
+notify()  { osascript -e "display notification \"$1\" with title \"Voiceover\""; }
+err_box() { osascript -e "display dialog \"$1\" buttons {\"OK\"} default button \"OK\" with title \"Voiceover — Error\""; }
+
+if [ ! -f "$SCRIPT" ]; then
+  err_box "voiceover.py not found at $SCRIPT. Edit run script to set YC_DIR correctly."
+  exit 1
+fi
+
+if ! command -v python3 >/dev/null 2>&1; then
+  err_box "python3 not found on PATH. Install via brew install python."
+  exit 1
+fi
+
+notify "Generating voiceover via ElevenLabs…"
+
+cd "$YC_DIR"
+if python3 voiceover.py > "$LOG" 2>&1; then
+  notify "✓ Voiceover ready — opening video"
+  sleep 0.5
+  open "$RESULT"
+else
+  tail_log=$(tail -n 6 "$LOG" | tr '"' "'" | tr '\n' ' ')
+  err_box "Voiceover failed. Last log lines: $tail_log  •  Full log: $LOG"
+  exit 1
+fi

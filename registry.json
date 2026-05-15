@@ -1,6 +1,6 @@
 {
   "registry_name": "YouCloned Skills Registry",
-  "registry_version": "1.0.1",
+  "registry_version": "1.0.2",
   "source": "Google Drive folder 1M9PWGgCSQIXX0UJGzatr3EcdBk9t5DTP imported 2026-05-15 plus existing repository skills",
   "notes": [
     "Descriptions are intentionally non-overlapping: each entry states the primary job and boundary for that skill.",
@@ -67,6 +67,19 @@
       "primary_file": "skills/calendar-manager/calendar-event-scheduler.md",
       "description": "Calendar operations for viewing schedules, booking meetings, blocking focus time, managing availability, and triggering meeting follow-up actions.",
       "support_files": []
+    },
+    {
+      "name": "cinematic-walkthroughs",
+      "primary_file": "skills/cinematic-walkthroughs/SKILL.md",
+      "description": "Cinematic walkthrough video production for polished animated MP4s using Python, PIL, FFmpeg, particle backgrounds, kinetic typography, illustrated icons, captions, and optional ElevenLabs narration.",
+      "support_files": [
+        "skills/cinematic-walkthroughs/scripts/list_voices.py",
+        "skills/cinematic-walkthroughs/scripts/setup.sh",
+        "skills/cinematic-walkthroughs/templates/render_reference.py",
+        "skills/cinematic-walkthroughs/templates/voiceover.py",
+        "skills/cinematic-walkthroughs/templates/voiceover_app_template/Contents/Info.plist",
+        "skills/cinematic-walkthroughs/templates/voiceover_app_template/Contents/MacOS/run"
+      ]
     },
     {
       "name": "commit-operation-manager",

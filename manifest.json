@@ -1,6 +1,6 @@
 {
   "registry_name": "YouCloned Skills Registry",
-  "registry_version": "1.0.1",
+  "registry_version": "1.0.2",
   "skills": [
     {
       "name": "ad-launcher",
@@ -46,6 +46,11 @@
       "name": "calendar-manager",
       "url": "skills/calendar-manager/calendar-event-scheduler.md",
       "description": "Calendar operations for viewing schedules, booking meetings, blocking focus time, managing availability, and triggering meeting follow-up actions."
+    },
+    {
+      "name": "cinematic-walkthroughs",
+      "url": "skills/cinematic-walkthroughs/SKILL.md",
+      "description": "Cinematic walkthrough video production for polished animated MP4s using Python, PIL, FFmpeg, particle backgrounds, kinetic typography, illustrated icons, captions, and optional ElevenLabs narration."
     },
     {
       "name": "commit-operation-manager",
